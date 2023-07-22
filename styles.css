@@ -59,12 +59,13 @@ nav button{
     margin-top:50px ;
 }
 .header h1{
-    font-size: 60px;
+    font-size: 70px;
     line-height: 60px;
-    font-weight: 550;
-    max-width: 600px;
+    font-weight: 700;
+    max-width: 900px;
 }
 .header h3{
+    margin-top: 10px;
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -76,6 +77,7 @@ nav button{
     align-items: center;
     margin-top: 30px;
     overflow: hidden;
+    color: #fff;
 }
 .email_singup input{
     flex: 1;
@@ -83,6 +85,7 @@ nav button{
     outline: 0;
     margin-left: 20px;
     background: transparent;
+    color: #fff;
 }
 .email_singup button{
     background: #f80202;
@@ -248,6 +251,7 @@ ul{
 
 @media only screen and (max-width: 600px){
     .logo{
+        padding-top: 0px;
         width:100px;
     }
     nav button{
@@ -259,7 +263,7 @@ ul{
     .header{
         position: unset;
         transform: none;
-        padding-top: 150px;
+        padding-top: 10px;
     }
     .header h1{
         font-size: 30px;
@@ -288,6 +292,9 @@ ul{
     }
     .accordian .content{
         font-size: 14px;
+    }
+    .footer.row:nth-child(2), .row:nth-child(4) {
+        justify-content: flex-start;
     }
     .accordian li label{
         padding: 10px;
